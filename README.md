@@ -1,16 +1,33 @@
-# React + Vite
+# 🧠 NeuraChat AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NeuraChat is a modern AI chatbot built with React and Puter.js.  
+It provides real-time AI responses with a clean, responsive UI and supports dark/light mode for better user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Project Preview
 
-## React Compiler
+![NeuraChat](Neurochat%20image.jpg)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Real-time AI chat using Puter.js
+- 🌙 Dark / ☀ Light mode toggle
+- 💬 Clean chat interface (user & AI bubbles)
+- 🚀 Fast and responsive React UI
+- 🎯 Minimal and distraction-free design
+
+---
+
+## 🚀 Future Enhancements
+
+- 🔥 Chat history saving (local storage / database)
+- 🎤 Voice input and voice output support
+- 📂 File and image upload support
+- 👤 User authentication system
+- 🌐 Multi-language support
+- 📱 Mobile app version
+
+---
