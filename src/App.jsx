@@ -99,7 +99,7 @@ export default function App() {
 
         <div
           ref={chatRef}
-          className="flex-1 overflow-y-auto p-5 space-y-4 bg-[#f8fafc] dark:bg-[#0f172a]"
+          className="flex-1 overflow-y-auto p-6 space-y-5 bg-[#f8fafc] dark:bg-[#0f172a]"
         >
 
           {messages.map((msg, i) => (
@@ -109,7 +109,7 @@ export default function App() {
               className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
             >
 
-              <div className={`max-w-[80%] px-4 py-3 rounded-2xl text-sm whitespace-pre-wrap shadow-md
+              <div className={`max-w-[85%] px-4 py-3 rounded-2xl text-sm whitespace-pre-wrap shadow-md
                 ${msg.role === 'user'
                   ? 'bg-indigo-600 text-white'
                   : 'bg-white dark:bg-[#1e293b] border border-gray-200 dark:border-white/10'
@@ -139,7 +139,7 @@ export default function App() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Ask something..."
-            className="flex-1 px-4 py-3 rounded-2xl outline-none bg-gray-100 dark:bg-[#0f172a] border border-gray-300 dark:border-white/10"
+            className="flex-1 px-4 py-3 rounded-2xl outline-none bg-gray-200 dark:bg-[#0f172a] border border-gray-300 dark:border-white/10"
             onKeyDown={(e) => e.key === 'Enter' && sendMessage()}
           />
 
